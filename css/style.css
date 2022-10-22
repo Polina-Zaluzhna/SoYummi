@@ -16,9 +16,9 @@ body {
 }
 
 .header {
-  background: #373a3c;
+  background: #e4b532;
   border-radius: 4px 4px 0 0;
-  border-bottom: 3px solid #777;
+  border-bottom: 3px solid rgb(232, 183, 105);
 }
 
 .container-header {
@@ -30,20 +30,6 @@ body {
   justify-content: space-between;
   height: 60px;
 }
-
-/*
-.header-logo {
-}
-
-.header-image {
-}
-
-.menu {
-}
-
-.menu-body {
-}
-*/
 
 .menu-list {
   display: flex;
@@ -69,7 +55,8 @@ body {
 }
 
 .promo {
-  background: url(../image/bg2.jpg) no-repeat center / cover;
+  background: url(../image/photo_2022-10-21_19-24-43.png) no-repeat center /
+    cover;
   height: calc(100vh - 63px);
 }
 
@@ -80,14 +67,13 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
 
 .promo__title {
-  font-size: 36px;
+  font-size: 35px;
   line-height: 42px;
   color: #ffffff;
-  margin-bottom: 134px;
+  margin-bottom: 125px;
 }
 .promo__title span {
   display: block;
@@ -102,8 +88,8 @@ body {
 }
 
 .promo-button {
-  padding: 8px 19px;
-  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  padding: 8px 20px;
+  background: linear-gradient(180deg, #fbcd00 0%, #e48c09 100%);
   border-radius: 4px;
   font-size: 16px;
   line-height: 21px;
@@ -113,17 +99,12 @@ body {
 }
 
 .promo-button:hover {
-  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+  background: linear-gradient(180deg, #d2990a 0%, #c86d05 100%);
 }
 
 .best {
   padding: 34px 0 165px 0;
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
-}
-
-.best-logo {
-  display: block;
-  margin: 0 auto;
 }
 
 .best-title {
@@ -153,20 +134,19 @@ body {
 .best-cart-imge {
   height: 180px;
   margin-bottom: 15px;
-  background: url(../image/xbox-one-x.jpg) no-repeat center / cover;
+  background: url(../image/SS1akc.png) no-repeat center / cover;
 }
 
 .best-cart-imgq {
   height: 180px;
   margin-bottom: 15px;
-  background: url(../image/mixer-logo.jpg) no-repeat center / cover;
+  background: url(../image/SS2akc.png) no-repeat center / cover;
 }
 
 .best-cart-imgw {
   height: 180px;
   margin-bottom: 15px;
-  background: url(../image/1c93fdc8-0f06-4f34-a54c-7ac2a45c58ae.jpg) no-repeat
-    center / cover;
+  background: url(../image/SS3akc.png) no-repeat center / cover;
 }
 
 .best-cart-texte {
@@ -227,7 +207,7 @@ body {
 }
 
 .best-cart-buttonw {
-  padding: 15px 88px;
+  padding: 15px 85px;
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
   border-radius: 4px;
   font-size: 16px;
@@ -239,7 +219,7 @@ body {
 }
 
 .best-cart-buttonq {
-  padding: 15px 72px;
+  padding: 15px 85px;
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
   border-radius: 4px;
   font-size: 16px;
@@ -251,7 +231,7 @@ body {
 }
 
 .best-cart-buttone {
-  padding: 15px 32px;
+  padding: 15px 85px;
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
   border-radius: 4px;
   font-size: 16px;
@@ -263,20 +243,19 @@ body {
 }
 
 .best-cart-buttone:hover {
-  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+  background: linear-gradient(180deg, #f50707 0%, #de5606 100%);
 }
 
 .best-cart-buttonq:hover {
-  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+  background: linear-gradient(180deg, #f50707 0%, #de5606 100%);
 }
 
 .best-cart-buttonw:hover {
-  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+  background: linear-gradient(180deg, #f50707 0%, #de5606 100%);
 }
 
 .Exclusive {
-  background: url(../image/Rectanglehh.jpg) no-repeat center / cover;
-  height: calc(100vh - 63px);
+  background: #e4b532;
 }
 
 .container-exclusive {
@@ -305,16 +284,10 @@ body {
   margin-bottom: 10px;
 }
 
-.Exclusive-cartb {
-  margin-top: 15px;
-  flex: 0 0 260px;
-  background: #fff;
-}
-
 .Exclusive-cart-imge {
   height: 180px;
-  margin-bottom: 15px;
-  background: url(../image/img.jpg) no-repeat center / cover;
+  margin-bottom: 49.5px;
+  background: url(../image/SS1dakc.png) no-repeat center / cover;
 }
 
 .Exclusive-cart-buttonse {
@@ -336,7 +309,7 @@ body {
 }
 
 .Exclusive-cart-buttone {
-  padding: 1px 76px;
+  padding: 1px 84px;
   margin-top: 25px;
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
   border-radius: 4px;
@@ -357,8 +330,8 @@ body {
 
 .Exclusive-cart-imgb {
   height: 180px;
-  margin-bottom: 15px;
-  background: url(../image/imgl.jpg) no-repeat center / cover;
+  margin-bottom: 32px;
+  background: url(../image/SS2dakc.png) no-repeat center / cover;
 }
 
 .Exclusive-cart-buttonsb {
@@ -374,7 +347,7 @@ body {
 }
 
 .Exclusive-cart-buttonb {
-  padding: 1px 76px;
+  padding: 1px 84px;
   margin-top: 100px;
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
   border-radius: 4px;
@@ -395,8 +368,8 @@ body {
 
 .Exclusive-cart-imgf {
   height: 180px;
-  margin-bottom: 15px;
-  background: url(../image/imgk.jpg) no-repeat center / cover;
+  margin-bottom: 54px;
+  background: url(../image/SS3dakc.png) no-repeat center / cover;
 }
 
 .Exclusive-cart-buttonsf {
@@ -412,7 +385,7 @@ body {
 }
 
 .Exclusive-cart-buttonf {
-  padding: 1px 76px;
+  padding: 1px 84px;
   margin-top: 78.5px;
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
   border-radius: 4px;
@@ -434,7 +407,7 @@ body {
 .Exclusive-cart-imgm {
   height: 180px;
   margin-bottom: 15px;
-  background: url(../image/imgj.jpg) no-repeat center / cover;
+  background: url(../image/SS4dakc.png) no-repeat center / cover;
 }
 
 .Exclusive-cart-buttonsm {
@@ -450,7 +423,7 @@ body {
 }
 
 .Exclusive-cart-buttonm {
-  padding: 1px 76px;
+  padding: 1px 84px;
   margin-top: 78.5px;
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
   border-radius: 4px;
@@ -476,7 +449,8 @@ body {
 }
 
 .Exclusive-link {
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   margin-left: 700px;
   padding: 8px 34px;
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
@@ -571,4 +545,230 @@ body {
   .menu-item {
     text-align: center;
   }
+}
+
+.cnkr {
+  color: red;
+}
+
+.cnkh {
+  margin-left: 15px;
+}
+
+.cnkhl {
+  margin-left: 28px;
+}
+
+.imng {
+  width: 514px;
+  margin-left: 250px;
+  margin-bottom: 120px;
+  border: 3px solid #d2990a;
+}
+
+.container-exclusivev {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.Exclusive-Titlev {
+  text-align: center;
+  font-size: 28px;
+  line-height: 125px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.Exclusivet-infov {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Exclusive-cartv {
+  margin-top: 30px;
+  flex: 0 0 260px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.Exclusive-cartbv {
+  margin-top: 15px;
+  flex: 0 0 260px;
+  background: #fff;
+}
+
+.Exclusive-cart-imgev {
+  height: 180px;
+  margin-bottom: 15px;
+  background: url(../image/SS8dakc.png) no-repeat center / cover;
+}
+
+.Exclusive-cart-buttonsev {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+
+.Exclusive-cart-textev {
+  color: #435766;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+.Exclusive-cart-buttonev {
+  padding: 1px 84px;
+  margin-top: 213px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 42px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s ease 0;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.Exclusive-cart-buttonev:hover {
+  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.Exclusive-cart-imgbv {
+  height: 180px;
+  margin-bottom: 15px;
+  background: url(../image/SS7dakc.png) no-repeat center / cover;
+}
+
+.Exclusive-cart-buttonsbv {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+
+.Exclusive-cart-titlebv {
+  margin-left: 15px;
+  color: #435766;
+  font-size: 14px;
+}
+
+.Exclusive-cart-buttonbv {
+  padding: 1px 84px;
+  margin-top: 213px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 42px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s ease 0;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.Exclusive-cart-buttonbv:hover {
+  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.Exclusive-cart-imgfv {
+  height: 180px;
+  margin-bottom: 15px;
+  background: url(../image/SS6dakc.png) no-repeat center / cover;
+}
+
+.Exclusive-cart-buttonsfv {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+
+.Exclusive-cart-titlefv {
+  margin-left: 15px;
+  color: #435766;
+  font-size: 14px;
+}
+
+.Exclusive-cart-buttonfv {
+  padding: 1px 83px;
+  margin-top: 136px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 42px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s ease 0;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.Exclusive-cart-buttonfv:hover {
+  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.Exclusive-cart-imgmv {
+  height: 180px;
+  margin-bottom: 15px;
+  background: url(../image/SS5dakc.png) no-repeat center / cover;
+}
+
+.Exclusive-cart-buttonsmv {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+
+.Exclusive-cart-titlemv {
+  margin-left: 15px;
+  color: #435766;
+  font-size: 14px;
+}
+
+.Exclusive-cart-buttonmv {
+  padding: 1px 83px;
+  margin-top: 78.5px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 42px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s ease 0;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.Exclusive-cart-buttonmv:hover {
+  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.Exclusive-link-buttonv {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+
+.Exclusive-linkv {
+  margin-top: 50px;
+  margin-left: 700px;
+  padding: 8px 34px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s ease 0;
+}
+
+.Exclusive-linkv:hover {
+  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
 }
